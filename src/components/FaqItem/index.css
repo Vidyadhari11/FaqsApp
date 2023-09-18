@@ -1,0 +1,50 @@
+/* Write your code here. */
+.list-item-container {
+  border: 1px solid #d7dae6;
+  list-style-type: none;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 12px;
+  width: 100%;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question {
+  color: #52606d;
+  font-family: roboto;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .question {
+    font-size: 24px;
+  }
+}
+
+.button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.image {
+  height: 25x;
+  width: 25px;
+  margin-top: 0px;
+}
+.line {
+  border: 2px solid #e4e7eb;
+}
+.answer {
+  color: #9aa5b1;
+  font-family: roboto;
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .answer {
+    font-size: 12px;
+  }
+}
